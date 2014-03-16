@@ -1,0 +1,21 @@
+/**
+*
+* Typography Options
+*
+**/
+
+html, body {
+    font-family: 'Raleway',$helvetica;
+    color: #363A35;
+}
+
+.post-content p {
+    line-height: 25px;
+}
+
+code {
+    font-family: $monospace;
+    background: #eee;
+    color: $link-red;
+    padding: 2px 4px;
+}

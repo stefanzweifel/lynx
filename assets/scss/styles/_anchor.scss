@@ -1,0 +1,42 @@
+a {
+    color: $link-red;
+    text-decoration: none;
+
+    &:hover {
+        color: $link-yellow;
+    }
+}
+
+.button, .btn {
+    border: 1px solid $link-red;
+    border-radius: $border-radius;
+    display: inline-block;
+    font-size: 0.9em;
+    font-weight: 700;
+    padding: 5px 10px;
+    margin: 0 10px 0 0;
+    @include transition(all .2s $ease-in-quad);
+
+    &:hover {
+        background: $link-red;
+        color: $white;
+    }
+}
+
+.twitter:hover {
+    background: $twitter-color;
+    border-color: $twitter-color;
+ }
+.facebook:hover {
+    background: $facebook-color;
+    border-color: $facebook-color;
+}
+.google:hover {
+    background: $google-color;
+    border-color: $google-color;
+}
+
+.post-title a {
+    font-weight: bolder;
+    text-decoration: none;
+}

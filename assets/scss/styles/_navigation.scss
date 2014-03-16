@@ -1,0 +1,59 @@
+#page-navigation {
+    text-align:  right;
+    margin-top: 20px;
+    font-weight: 500;
+
+    ul {
+        list-style-type: none;
+
+        li {
+            display: inline;
+
+            &:before{
+                content: '\2022';
+                display: inline;
+                padding: 0px 4px;
+            }
+
+            &:last-child:before, &:first-child:before {
+                content: '';
+            }
+
+            a {
+                border-bottom: 1px solid $link-red;
+                @include transition(all .2s $ease-in-quad);
+
+                &:hover {
+                    border-color: $link-yellow;
+                    color: $link-yellow;
+                }
+            }
+
+
+            .logo {
+                border-bottom: 0px solid $link-red;
+
+                img {
+                    max-height: 32px;
+                    margin-bottom: -8px;
+                }
+
+                &:hover {
+                    border-bottom: none;
+                }
+            }
+
+
+        }
+    }
+
+}
+
+@media screen and (max-width: 560px) {
+
+    .logo {
+        position: absolute;
+        left: 20px;
+    }
+
+}

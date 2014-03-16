@@ -1,0 +1,27 @@
+.site-footer {
+    margin: 20px auto;
+    padding: 10px;
+
+    border-top: solid 1px $grey;
+
+    font-size: .9em;
+    font-weight: 500;
+
+    text-align: center;
+}
+
+.subscribe {
+    margin-bottom: 10px;
+}
+
+.post-footer {
+    border-top: 1px solid $grey;
+
+    h4 {
+        margin: 10px 0;
+    }
+
+    p {
+        margin: 0;
+    }
+}

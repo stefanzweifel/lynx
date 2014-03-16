@@ -1,0 +1,50 @@
+body {
+    background: #f9f9f9;
+}
+
+.content {
+    max-width: $max-width;
+    margin: 0 auto;
+}
+
+img {
+    max-width: $max_width;
+}
+
+main.content {
+    padding: 10px;
+}
+
+blockquote {
+    border-left: 2px solid darken($grey, 15);
+    padding-left: 5px;
+    color: darken($grey, 30);
+}
+
+.post-header {
+
+    h2 {
+        margin: 0 0 50px;
+
+        a:hover {
+            color: $link-yellow;
+        }
+
+        a:hover:after {
+            content: '\00B6';
+            display: inline;
+            margin-left: 10px;
+            color: lighten($link-yellow, 5);
+        }
+    }
+
+}
+
+.post-meta {
+    font-size: 0.8em;
+}
+
+#disqus_thread {
+    border-top: 1px solid $grey;
+    margin-top: 20px;
+}

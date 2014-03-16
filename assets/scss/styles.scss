@@ -1,0 +1,34 @@
+/**
+*
+* styles.scss
+* Imports all the SCSS-Files!
+*
+* @version 0.0.1
+* @author Stefan Zweifel (http://wnx.ch)
+*
+**/
+
+/*================================
+=            Partials            =
+================================*/
+
+@import "bourbon/bourbon";
+@import "partials/reset";
+@import "partials/variables";
+@import "partials/typography";
+@import "partials/layout";
+
+
+/*-----  End of Partials  ------*/
+
+/*==============================
+=            Styles            =
+==============================*/
+
+@import "styles/anchor";
+@import "styles/navigation";
+@import "styles/footer";
+@import "styles/pagination";
+
+
+/*-----  End of Styles  ------*/
