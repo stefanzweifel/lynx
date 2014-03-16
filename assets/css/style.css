@@ -1,1 +1,181 @@
-*{-webkit-font-smoothing:antialiased}html,body{font-family:"Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;color:#363A35}.post-content p{line-height:25px}code{font-family:"Bitstream Vera Sans Mono",Consolas,Courier,monospace;background:#eee;color:#ed694f;padding:2px 4px}body{background:#f9f9f9}.content{max-width:500px;margin:0 auto}img{max-width:500px}main.content{padding:10px}blockquote{border-left:2px solid #c4c4c4;padding-left:5px;color:#9e9e9e}.post-header h2{margin:0 0 50px}.post-header h2 a:hover{color:#edb81d}.post-header h2 a:hover:after{content:'\00B6';display:inline;margin-left:10px;color:#efbf35}.post-meta{font-size:0.8em}#disqus_thread{border-top:1px solid #eaeaea;margin-top:20px}a{color:#ed694f;text-decoration:none}a:hover{color:#edb81d}.button,.btn,.older-posts,.newer-posts{border:1px solid #ed694f;border-radius:5px;display:inline-block;font-size:0.9em;font-weight:700;padding:5px 10px;margin:0 10px 0 0;-webkit-transition:all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);-moz-transition:all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);transition:all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53)}.button:hover,.btn:hover,.older-posts:hover,.newer-posts:hover{background:#ed694f;color:#fff}.twitter:hover{background:#55acee;border-color:#55acee}.facebook:hover{background:#3b5998;border-color:#3b5998}.google:hover{background:#dd4b39;border-color:#dd4b39}.post-title a{font-weight:bolder;text-decoration:none}#page-navigation{text-align:right;margin-top:20px;font-weight:500}#page-navigation ul{list-style-type:none}#page-navigation ul li{display:inline}#page-navigation ul li:before{content:'\2022';display:inline;padding:0px 4px}#page-navigation ul li:last-child:before,#page-navigation ul li:first-child:before{content:''}#page-navigation ul li a{border-bottom:1px solid #ed694f;-webkit-transition:all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);-moz-transition:all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);transition:all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53)}#page-navigation ul li a:hover{border-color:#edb81d;color:#edb81d}#page-navigation ul li .logo{border-bottom:0px solid #ed694f}#page-navigation ul li .logo img{max-height:32px;margin-bottom:-8px}#page-navigation ul li .logo:hover{border-bottom:none}@media screen and (max-width: 560px){.logo{position:absolute;left:20px}}.site-footer{margin:20px auto;padding:10px;border-top:solid 1px #eaeaea;font-size:.9em;font-weight:500;text-align:center}.subscribe{margin-bottom:10px}.post-footer{border-top:1px solid #eaeaea}.post-footer h4{margin:10px 0}.post-footer p{margin:0}.pagination{text-align:center;margin-top:20px;font-size:.8em}.older-posts,.newer-posts{margin:0 10px}
+/**
+*
+* styles.scss
+* Imports all the SCSS-Files!
+*
+* @version 0.0.1
+* @author Stefan Zweifel (http://wnx.ch)
+*
+**/
+/*================================
+=            Partials            =
+================================*/
+* {
+  -webkit-font-smoothing: antialiased; }
+
+/*=================================
+=            Box Model            =
+=================================*/
+/*-----  End of Box Model  ------*/
+/*=============================
+=            Visual            =
+=============================*/
+/*-----  End of Visual  ------*/
+/**
+*
+* Typography Options
+*
+**/
+html, body {
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #363A35; }
+
+.post-content p {
+  line-height: 25px; }
+
+code {
+  font-family: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
+  background: #eee;
+  color: #ed694f;
+  padding: 2px 4px; }
+
+body {
+  background: #f9f9f9; }
+
+.content {
+  max-width: 500px;
+  margin: 0 auto; }
+
+img {
+  max-width: 500px; }
+
+@media screen and (max-width: 560px) {
+  img {
+    max-width: 100%; } }
+main.content {
+  padding: 10px; }
+
+blockquote {
+  border-left: 2px solid #c4c4c4;
+  padding-left: 5px;
+  color: #9e9e9e; }
+
+.post-header h2 {
+  margin: 0 0 50px; }
+  .post-header h2 a:hover {
+    color: #edb81d; }
+  .post-header h2 a:hover:after {
+    content: '\00B6';
+    display: inline;
+    margin-left: 10px;
+    color: #efbf35; }
+
+.post-meta {
+  font-size: 0.8em; }
+
+#disqus_thread {
+  border-top: 1px solid #eaeaea;
+  margin-top: 20px; }
+
+/*-----  End of Partials  ------*/
+/*==============================
+=            Styles            =
+==============================*/
+a {
+  color: #ed694f;
+  text-decoration: none; }
+  a:hover {
+    color: #edb81d; }
+
+.button, .btn, .older-posts, .newer-posts {
+  border: 1px solid #ed694f;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 0.9em;
+  font-weight: 700;
+  padding: 5px 10px;
+  margin: 0 10px 0 0;
+  -webkit-transition: all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  -moz-transition: all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  transition: all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53); }
+  .button:hover, .btn:hover, .older-posts:hover, .newer-posts:hover {
+    background: #ed694f;
+    color: white; }
+
+.twitter:hover {
+  background: #55acee;
+  border-color: #55acee; }
+
+.facebook:hover {
+  background: #3b5998;
+  border-color: #3b5998; }
+
+.google:hover {
+  background: #dd4b39;
+  border-color: #dd4b39; }
+
+.post-title a {
+  font-weight: bolder;
+  text-decoration: none; }
+
+#page-navigation {
+  text-align: right;
+  margin-top: 20px;
+  font-weight: 500; }
+  #page-navigation ul {
+    list-style-type: none; }
+    #page-navigation ul li {
+      display: inline; }
+      #page-navigation ul li:before {
+        content: '\2022';
+        display: inline;
+        padding: 0px 4px; }
+      #page-navigation ul li:last-child:before, #page-navigation ul li:first-child:before {
+        content: ''; }
+      #page-navigation ul li a {
+        border-bottom: 1px solid #ed694f;
+        -webkit-transition: all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+        -moz-transition: all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+        transition: all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53); }
+        #page-navigation ul li a:hover {
+          border-color: #edb81d;
+          color: #edb81d; }
+      #page-navigation ul li .logo {
+        border-bottom: 0px solid #ed694f; }
+        #page-navigation ul li .logo img {
+          max-height: 32px;
+          margin-bottom: -8px; }
+        #page-navigation ul li .logo:hover {
+          border-bottom: none; }
+
+@media screen and (max-width: 560px) {
+  .logo {
+    position: absolute;
+    left: 20px; } }
+.site-footer {
+  margin: 20px auto;
+  padding: 10px;
+  border-top: solid 1px #eaeaea;
+  font-size: .9em;
+  font-weight: 500;
+  text-align: center; }
+
+.subscribe {
+  margin-bottom: 10px; }
+
+.post-footer {
+  border-top: 1px solid #eaeaea; }
+  .post-footer h4 {
+    margin: 10px 0; }
+  .post-footer p {
+    margin: 0; }
+
+.pagination {
+  text-align: center;
+  margin-top: 20px;
+  font-size: .8em; }
+
+.older-posts, .newer-posts {
+  margin: 0 10px; }
+
+/*-----  End of Styles  ------*/

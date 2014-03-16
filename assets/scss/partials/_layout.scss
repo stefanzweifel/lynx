@@ -7,8 +7,18 @@ body {
     margin: 0 auto;
 }
 
+
 img {
     max-width: $max_width;
+}
+
+
+@media screen and (max-width: 560px) {
+
+    img {
+        max-width: 100%;
+    }
+
 }
 
 main.content {
