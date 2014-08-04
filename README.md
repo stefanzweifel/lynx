@@ -1,6 +1,6 @@
 # Lynx - Ghost Theme
 
-Lynx is my personal [Ghost](http://github.com/tryghost/ghost/)-Theme. Wan't to see a demo? Click [here](http://blog.wnx.ch).  
+Lynx is my personal [Ghost](http://github.com/tryghost/ghost/)-Theme.  
 It's built upon the default Ghost-Theme [Casper](https://github.com/TryGhost/Casper).
 
 ![](http://blog.wnx.ch/content/images/2014/Mar/Bildschirmfoto_2014_03_16_um_14_49_17.png)
